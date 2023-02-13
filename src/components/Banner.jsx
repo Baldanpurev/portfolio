@@ -5,11 +5,11 @@ import { Model } from "./DayLight/Model";
 
 export const Banner = () => {
   return (
-    <Canvas camera={{ position: [2, 3, -2] }}>
+    <Canvas camera={{ position: [5, 5, 5] }}>
       <Suspense>
         <ambientLight />
-        <Model position={[0, -2, 0]} />
-        <OrbitControls autoRotate autoRotateSpeed={10} />
+        <Model position={[0, -3, 0]} />
+        <OrbitControls autoRotate autoRotateSpeed={1} />
       </Suspense>
     </Canvas>
   );

@@ -6,7 +6,6 @@ import { Work } from "../components/Work";
 import { Hobbies } from "../components/Hobbies";
 import { Projects } from "../components/Projects";
 import { Banner } from "../components/Banner";
-
 export const Home = () => {
   const { dark } = useContext(DContext);
   return (
@@ -27,6 +26,7 @@ export const Home = () => {
           sx={{
             width: "100%",
             height: "45vh",
+            marginBottom: "230px",
           }}
         >
           <Banner />
